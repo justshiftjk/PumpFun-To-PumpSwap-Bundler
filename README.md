@@ -30,6 +30,11 @@ This repo provides high-performance transaction bundling using **Jito** and **Lo
 - **Jito**: For MEV-aware bundling and relaying.
 - **Lookup Tables**: For handling large transactions efficiently.
 
+## 🤝 Proof of Work
+- [Token Address](https://solscan.io/token/GdKDQPqhHMTXPr8pTTjtj9buEaqfsFkVqadP1t4M3i5y)
+- [Create Token and Buy Tx](https://explorer.jito.wtf/bundle/5wyWQddzvoMsyydoEQEux1McoFn5uennRWzCDtUDvub9t2JLE6oMUAyqyAY6xJyRC4kFES9Rse4iATNrjTjYyQno)
+- [Batch Sell Tx](https://explorer.jito.wtf/bundle/3iDoKwDYoeqNgqHkaB7jve9TJhZ9NMmovc6Znkbfdhqq6Do71mFZrwR49FpUMx68yph7sCkvrjAjUHmfakoFku5v)
+
 ## ⚠️ Important Notice
 Due to security concerns, the source code includes only pumpfun bundler part.
 
