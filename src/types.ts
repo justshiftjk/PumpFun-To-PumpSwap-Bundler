@@ -1,20 +1,4 @@
-// import { web3 } from "@project-serum/anchor"
-import { RawMint } from "@solana/spl-token"
 import { PublicKey, VersionedTransactionResponse } from "@solana/web3.js";
-
-export type BaseRayInput = {
-  rpcEndpointUrl: string
-}
-export type Result<T, E = any | undefined> = {
-  Ok?: T,
-  Err?: E
-}
-export type MPLTokenInfo = {
-  address: PublicKey
-  mintInfo: RawMint,
-  metadata: any
-}
-
 
 export type CreateTokenMetadata = {
   name: string;
@@ -24,7 +8,6 @@ export type CreateTokenMetadata = {
   twitter?: string;
   telegram?: string;
   website?: string;
-  discord?: string;
 };
 
 export type TokenMetadata = {
@@ -92,16 +75,6 @@ export type PriorityFee = {
 export type TransactionResult = {
   signature?: string;
   error?: unknown;
-  results?: any;
+  results?: VersionedTransactionResponse;
   success: boolean;
 };
-
-
-
-export type BatchBuyTransactionResult = {
-  signature?: string;
-  error?: unknown;
-  results?: any;
-  success: boolean;
-};
-
