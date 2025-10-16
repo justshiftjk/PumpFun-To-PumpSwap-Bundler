@@ -84,6 +84,8 @@ VANITY_MODE=false
 # Single Wallet Mode (for oneWalletBundle.ts)
 BUYER_WALLET=buyer_wallet_private_key_in_base58
 BUYER_AMOUNT=0.5
+
+SIMULATE_ONLY = false
 ```
 ## 🎯 Usage
 
