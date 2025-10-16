@@ -25,7 +25,6 @@ export const SWAP_AMOUNT = Number(retrieveEnvVariable('SWAP_AMOUNT'))
 export const DISTRIBUTION_WALLETNUM = Number(retrieveEnvVariable('DISTRIBUTION_WALLETNUM'))
 
 export const JITO_FEE = Number(retrieveEnvVariable('JITO_FEE'))
-export const MINIMUM_JITO_TIP = Number(retrieveEnvVariable('MINIMUM_JITO_TIP'))
 export const SIMULATE_ONLY = retrieveEnvVariable('SIMULATE_ONLY') == "true"
 
 export const global_mint = new PublicKey("p89evAyzjd9fphjJx7G3RFA48sbZdpGEppRcfRNpump")
